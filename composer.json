@@ -1,0 +1,22 @@
+{
+    "name": "magento2-sk/module-customization",
+    "description": "Magento2 Custom Module",
+    "type": "magento2-module",
+    "version": "0.0.1-beta",
+    "authors": [{
+        "name": "Kishan Savaliya",
+        "email": "kishansavaliyakb@gmail.com"
+    }],
+    "license": "OSL-3.0",
+    "require": {
+        "php": ">= 7.1"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SK\\Customization\\": ""
+        }
+    }
+}
