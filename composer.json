@@ -7,17 +7,12 @@
         "name": "Kishan Savaliya",
         "email": "kishansavaliyakb@gmail.com"
     }],
-    "license": "OSL-3.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
     "require": {
-        "php": ">= 7.1"
-    },
-    "extra": {
-        "map": [
-            [
-                "*",
-                "SK/Customization"
-            ]
-        ]
+        "php": "~7.3.0||~7.4.0"
     },
     "autoload": {
         "files": [
@@ -25,6 +20,13 @@
         ],
         "psr-4": {
             "SK\\Customization\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "repositories": {
+        "magento": {
+            "type": "composer",
+            "url": "https://repo.magento.com"
         }
     }
 }
